@@ -1,0 +1,134 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.delcons:professional-service >------------------
+[INFO] Building professional-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ professional-service ---
+[INFO] Deleting D:\Proyectos\saas\delcons\backend\professional-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ professional-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ professional-service ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 27 source files with javac [debug release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[16,22] cannot find symbol
+  symbol:   class AddressDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[16,5] cannot find symbol
+  symbol:   class Address
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[17,22] cannot find symbol
+  symbol:   class Address
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[17,5] cannot find symbol
+  symbol:   class AddressDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[19,21] cannot find symbol
+  symbol:   class BranchDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[19,5] cannot find symbol
+  symbol:   class Branch
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[20,21] cannot find symbol
+  symbol:   class Branch
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[20,5] cannot find symbol
+  symbol:   class BranchDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[22,27] cannot find symbol
+  symbol:   class CoverageAreaDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[22,5] cannot find symbol
+  symbol:   class CoverageArea
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[23,27] cannot find symbol
+  symbol:   class CoverageArea
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[23,5] cannot find symbol
+  symbol:   class CoverageAreaDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[25,23] cannot find symbol
+  symbol:   class GeoPointDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[25,5] cannot find symbol
+  symbol:   class GeoPoint
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[26,23] cannot find symbol
+  symbol:   class GeoPoint
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[26,5] cannot find symbol
+  symbol:   class GeoPointDTO
+  location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[10,8] No implementation was created for ProfessionalRestMapper due to having a problem in the erroneous element AddressDTO. Hint: this often means that some other annotation processor was supposed to process the erroneous element. You can also enable MapStruct verbose mode by setting -Amapstruct.verbose=true as a compilation argument.
+[INFO] 17 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.446 s
+[INFO] Finished at: 2026-02-07T18:07:28-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project professional-service: Compilation failure: Compilation failure: 
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[16,22] cannot find symbol
+[ERROR]   symbol:   class AddressDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[16,5] cannot find symbol
+[ERROR]   symbol:   class Address
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[17,22] cannot find symbol
+[ERROR]   symbol:   class Address
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[17,5] cannot find symbol
+[ERROR]   symbol:   class AddressDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[19,21] cannot find symbol
+[ERROR]   symbol:   class BranchDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[19,5] cannot find symbol
+[ERROR]   symbol:   class Branch
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[20,21] cannot find symbol
+[ERROR]   symbol:   class Branch
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[20,5] cannot find symbol
+[ERROR]   symbol:   class BranchDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[22,27] cannot find symbol
+[ERROR]   symbol:   class CoverageAreaDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[22,5] cannot find symbol
+[ERROR]   symbol:   class CoverageArea
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[23,27] cannot find symbol
+[ERROR]   symbol:   class CoverageArea
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[23,5] cannot find symbol
+[ERROR]   symbol:   class CoverageAreaDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[25,23] cannot find symbol
+[ERROR]   symbol:   class GeoPointDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[25,5] cannot find symbol
+[ERROR]   symbol:   class GeoPoint
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[26,23] cannot find symbol
+[ERROR]   symbol:   class GeoPoint
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[26,5] cannot find symbol
+[ERROR]   symbol:   class GeoPointDTO
+[ERROR]   location: interface com.delcons.professionalservice.infrastructure.in.web.mapper.ProfessionalRestMapper
+[ERROR] /D:/Proyectos/saas/delcons/backend/professional-service/src/main/java/com/delcons/professionalservice/infrastructure/in/web/mapper/ProfessionalRestMapper.java:[10,8] No implementation was created for ProfessionalRestMapper due to having a problem in the erroneous element AddressDTO. Hint: this often means that some other annotation processor was supposed to process the erroneous element. You can also enable MapStruct verbose mode by setting -Amapstruct.verbose=true as a compilation argument.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
