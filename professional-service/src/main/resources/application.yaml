@@ -2,18 +2,5 @@ spring:
   application:
     name: professional-service
 
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://borcla:3306/delcons_db
-    username: root
-    password: "^w9ZPy4>qbvxVkxq"
-  jpa:
-    hibernate:
-      ddl-auto: create
-    show-sql: true
-
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8080/auth/realms/delcons
+  profiles:
+    active: dev

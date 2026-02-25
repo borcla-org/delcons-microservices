@@ -1,4 +1,7 @@
 package com.delcons.authservice.domain.port.out;
 
-public class ClockPort {
+import java.time.Instant;
+
+public interface ClockPort {
+    Instant now();
 }

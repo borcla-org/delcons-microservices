@@ -8,9 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Branch {
-
     private Long id;
-    private Professional professional;
+
+    private Long organizationId;
+
     private Address address;
     private CoverageArea coverageArea;
 }

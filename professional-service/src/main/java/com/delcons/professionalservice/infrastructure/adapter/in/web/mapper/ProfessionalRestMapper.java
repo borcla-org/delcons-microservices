@@ -3,10 +3,6 @@ package com.delcons.professionalservice.infrastructure.adapter.in.web.mapper;
 import com.delcons.professionalservice.domain.model.*;
 import com.delcons.professionalservice.infrastructure.adapter.in.web.dto.request.*;
 import com.delcons.professionalservice.infrastructure.adapter.in.web.dto.response.*;
-import com.delcons.professionalservice.infrastructure.adapter.web.dto.request.*;
-import com.delcons.professionalservice.infrastructure.adapter.web.dto.response.*;
-import com.delcons.professionalservice.infrastructure.in.web.dto.request.*;
-import com.delcons.professionalservice.infrastructure.in.web.dto.response.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
@@ -24,10 +20,6 @@ public interface ProfessionalRestMapper {
 
     Address toDomain(AddressRequest dto);
     AddressResponse toDto(Address domain);
-
-    @Mapping(target = "professional", ignore = true)
-    Branch toDomain(BranchRequest dto);
-    BranchResponse toDto(Branch domain);
 
     CoverageArea toDomain(CoverageAreaRequest dto);
     CoverageAreaResponse toDto(CoverageArea domain);

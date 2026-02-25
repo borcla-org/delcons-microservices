@@ -43,12 +43,12 @@ public class ProfessionalEntity {
     private double rating;
     private Integer completedProjects;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "main_address_id")
-    private AddressEntity mainAddress;
+    @Embedded
+    private AddressEmbeddable mainAddress;
 
-    @OneToMany(mappedBy = "professional", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<BranchEntity> branches = new ArrayList<>();
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "organization_id")
+    private OrganizationEntity organization;
 
     @ElementCollection(fetch = FetchType.EAGER)
     @Enumerated(EnumType.STRING)

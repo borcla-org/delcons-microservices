@@ -2,8 +2,6 @@ package com.delcons.professionalservice.infrastructure.adapter.out.persistence.j
 
 import com.delcons.professionalservice.domain.model.*;
 import com.delcons.professionalservice.infrastructure.adapter.out.persistence.jpa.entity.*;
-import com.delcons.professionalservice.infrastructure.adapter.persistence.jpa.entity.*;
-import com.delcons.professionalservice.infrastructure.out.persistence.jpa.entity.*;
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -16,8 +14,8 @@ public interface ProfessionalMapper {
 
     Professional toDomain(ProfessionalEntity entity);
 
-    AddressEntity toEntity(Address domain);
-    Address toDomain(AddressEntity entity);
+    AddressEmbeddable toEmbeddable(Address domain);
+    Address toDomain(AddressEmbeddable entity);
 
     CoverageAreaEntity toEntity(CoverageArea domain);
     CoverageArea toDomain(CoverageAreaEntity entity);
@@ -25,16 +23,4 @@ public interface ProfessionalMapper {
     GeoPointEmbeddable toEntity(GeoPoint domain);
     GeoPoint toDomain(GeoPointEmbeddable entity);
 
-    @Mapping(target = "professional", ignore = true)
-    BranchEntity toEntity(Branch domain);
-
-    @Mapping(target = "professional", ignore = true)
-    Branch toDomain(BranchEntity entity);
-
-    @AfterMapping
-    default void linkBranches(@MappingTarget ProfessionalEntity professionalEntity) {
-        if (professionalEntity.getBranches() != null) {
-            professionalEntity.getBranches().forEach(branch -> branch.setProfessional(professionalEntity));
-        }
-    }
 }

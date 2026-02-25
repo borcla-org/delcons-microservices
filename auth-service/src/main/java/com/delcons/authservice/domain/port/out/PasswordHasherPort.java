@@ -1,4 +1,8 @@
 package com.delcons.authservice.domain.port.out;
 
-public class PasswordHasherPort {
+import com.delcons.authservice.domain.model.valueobject.PasswordHash;
+
+public interface PasswordHasherPort {
+    PasswordHash hash(char[] rawPassword);
+    boolean matches(char[] rawPassword, PasswordHash storedHash);
 }

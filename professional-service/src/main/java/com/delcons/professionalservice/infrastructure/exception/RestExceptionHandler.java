@@ -1,4 +1,8 @@
 package com.delcons.professionalservice.infrastructure.exception;
 
-public class RestExceptionHandler {
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class RestExceptionHandler extends RuntimeException{
 }

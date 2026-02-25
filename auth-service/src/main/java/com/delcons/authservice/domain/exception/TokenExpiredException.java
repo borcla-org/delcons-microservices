@@ -1,4 +1,4 @@
 package com.delcons.authservice.domain.exception;
 
-public class TokenExpiredException {
+public class TokenExpiredException extends RuntimeException{
 }

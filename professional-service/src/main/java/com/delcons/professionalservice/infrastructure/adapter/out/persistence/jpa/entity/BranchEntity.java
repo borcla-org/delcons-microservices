@@ -1,5 +1,6 @@
 package com.delcons.professionalservice.infrastructure.adapter.out.persistence.jpa.entity;
 
+import com.delcons.professionalservice.domain.model.Address;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,12 +17,11 @@ public class BranchEntity {
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "professional_id", nullable = false)
-    private ProfessionalEntity professional;
+    @JoinColumn(name = "organization_id", nullable = false)
+    private OrganizationEntity organization;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "address_id", nullable = false)
-    private AddressEntity address;
+    @Embedded
+    private AddressEmbeddable address;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true, optional = false)
     @JoinColumn(name = "coverage_area_id", nullable = false, unique = true)

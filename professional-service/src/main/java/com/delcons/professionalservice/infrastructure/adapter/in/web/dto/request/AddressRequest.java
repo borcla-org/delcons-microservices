@@ -1,10 +1,12 @@
 package com.delcons.professionalservice.infrastructure.adapter.in.web.dto.request;
 
+import jakarta.validation.constraints.NotBlank;
+
 public record AddressRequest(
-    Long id,
-    String city,
-    String street,
-    String zip,
-    String country,
-    String state
-) {}
+        @NotBlank String city,
+        @NotBlank String street,
+        @NotBlank String zip,
+        @NotBlank String country,
+        @NotBlank String state
+) {
+}
